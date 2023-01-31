@@ -78,7 +78,7 @@ function App() {
          <button className='operators' onClick={() => updateCalc('*')}>*</button>
 
          <button className='deleteBtn' onClick={() => deleteLast('C')}>C</button>
-         <button onClick={() => updateCalc('9')}>0</button>
+         <button onClick={() => updateCalc('0')}>0</button>
          <button onClick={calculate}>=</button>
          <button className='operators' onClick={() => updateCalc('/')}>/</button>
          </div>
